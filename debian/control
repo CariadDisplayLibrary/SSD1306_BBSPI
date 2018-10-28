@@ -6,10 +6,10 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: libdisplaycore-driver-ssd1306-bbspi
-Section: main
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
+XBSC-Subsubgroup: OLED
 Depends: libdisplaycore-core, libdisplaycore-driver-ssd1306
 Provides: SSD1306-UL-BBSPI.h
 Description: SSD1306 Bit-banged SPI Interface
