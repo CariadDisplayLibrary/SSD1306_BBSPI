@@ -1,3 +1,5 @@
-SSD1306_BBSPI.cpp libraries/DisplayCore/SSD1306_BBSPI
-SSD1306_BBSPI.h libraries/DisplayCore/SSD1306_BBSPI
 examples libraries/DisplayCore/SSD1306_BBSPI
+library.json libraries/DisplayCore/SSD1306_BBSPI
+library.properties libraries/DisplayCore/SSD1306_BBSPI
+README.md libraries/DisplayCore/SSD1306_BBSPI
+src libraries/DisplayCore/SSD1306_BBSPI
