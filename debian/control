@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-ssd1306-bbspi
+Source: libcariad-driver-ssd1306-bbspi
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-ssd1306-bbspi
+Package: libcariad-driver-ssd1306-bbspi
+Replaces: libdisplaycore-driver-ssd1306-bbspi
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: OLED
-Depends: libdisplaycore-core, libdisplaycore-driver-ssd1306
+Depends: libcariad-core, libcariad-driver-ssd1306
 Provides: SSD1306-UL-BBSPI.h
 Description: SSD1306 Bit-banged SPI Interface
  This is a generic 128x64 SSD1306 Bit-banged SPI driver.
